@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Helen Bonilla | Front-End Developer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="icons/hamburguesa.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Home</a>
+            <a href="#about">About me</a>
+            <a href="#portafolio">Portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#work experiences">Work experiences</a>
+            <a href="#contacto">Contact</a>
+        </nav>
+        <div class="contenedor head">
+            <img class="foto" src=./img/foto4.jpeg>
+            <h1 class="titulo">Helen Bonilla</h1>
+            <p class="copy"><b>Front-End Developer | UI/UX Designer</b></p>
+        </div>
+    </header> <br>
+    <main> 
+        <section class="contenedor" id="about">
+            <h2 class="subtitulo">About me</h2> 
+            <div class="contenedor-about">
+                <div class="checklist-about"> <br>
+                    <p>¡Hello Everybody!</p>
+                    <br>
+                    <p>My name is Helen Bonilla and I'm a <strong>Developer and UI/UX Designer</strong> from <strong> Colombia</strong>, currently based in <strong> Cali, Colombia. </strong></p>
+                    <p>I am a lifelong learner, always excited to work on cutting-edge technologies, ready to help, and passionate about the things I do every day. </p><br>
+                    <p>I have always loved designing and creating things with code since I was a <strong>Software Engineering </strong>student at the <strong> Universidad del Valle</strong> where I discovered my passion for <strong> web development</strong> and <strong> UX design </strong>during the last years of my degree, in fact, I started my first job there.</p>
+                    <p>I have been working in web development since 2019, I have faced various types of projects, such as <strong>e-commerce, social networks</strong> and <strong> Multitenant platforms (SaaS)</strong>.</p><br>
+                    <p>I also really enjoy being part of programming communities where I have organized events such as local meetups with <strong> PionerasDev </strong> and <strong> Django Girls Workshops</strong>. Sometimes I  <strong>give some talks</strong>.</p>
+                    <p>Welcome to my page and do not hesitate to consult each section in which you want to delve deeper about me, if you have any questions do not hesitate to contact me.</p>
+                    <br><br>
+                        <a class="bton" href="./doc/HV_HelenBonillaE.pdf" download="CV Helen Bonilla">Download CV</a>
+                </div> 
+            </div> <br> <br>
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor"> <br>
+                <h2 class="subtitulo">Portfolio</h2>
+
+                <div class="filter-menu">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button> 
+                    <button class="filter-btn" data-filter="design">Design</button>
+                    <button class="filter-btn" data-filter="social">Social media advertising</button>
+                    <button class="filter-btn" data-filter="talks">Talks</button>
+                  </div>
+                  
+                  <div class="card-list">
+                    <div class="card web">
+                        <img src="./img/RedAprende.PNG" alt="Descripción de la imagen">
+                        <div class="card-overlay">
+                          <h3>Web Project: Red Aprende</h3>
+                          <p>Description: Catalog of digital educational resources</p>
+                          <a href="./portfolio/webP1.html" target="_blank"><button>See more</button></a>
+                        </div>
+                      </div>
+                      <div class="card design">
+                        <img src="./img/404.png" alt="Descripción de la imagen">
+                        <div class="card-overlay">
+                          <h3>Design Project: Under Construction</h3>
+                          <p>Description: Under Construction</p>
+                          <a href="./portfolio/webP1.html" target="_blank"><button>See more</button></a>
+                        </div>
+                      </div>
+                      <div class="card social">
+                        <img src="./img/pionerasdev (4).png" alt="Descripción de la imagen">
+                        <div class="card-overlay">
+                          <h3>Advertising: Flyer meetup</h3>
+                          <p>Event: Innovation and Feedback</p>
+                          <a href="./portfolio/feed.html" target="_blank"><button>See more</button></a>
+                        </div>
+                      </div>
+                      <div class="card social">
+                        <img src="./img/PionerasDevCaliJulio.png" alt="Descripción de la imagen">
+                        <div class="card-overlay">
+                          <h3>Advertising: Flyer meetup</h3>
+                          <p>Event: Docker, Kubernetes and Tech Communities</p>
+                          <a href="./portfolio/Docker.html" target="_blank"><button>See more</button></a>
+                        </div>
+                      </div>
+                      <div class="card social">
+                        <img src="./img/image.png" alt="Descripción de la imagen">
+                        <div class="card-overlay">
+                          <h3>Advertising: Video Meetup</h3>
+                          <p>Event: Woman Day</p>
+                          <a href="./portfolio/DayW.html" target="_blank"><button>See more</button></a>
+                        </div>
+                      </div> 
+                      <div class="card talks">
+                        <img src="./img/120811788_2974301449463937_30745337983577985_n.jpg" alt="Descripción de la imagen">
+                        <div class="card-overlay">
+                          <h3>Talk: Web Usability</h3>
+                          <p>Place: Universidad cooperativa de colombia</p>
+                          <a href="./portfolio/talk_web.html" target="_blank"><button>See more</button></a>
+                        </div>
+                      </div> 
+                      <div class="card talks">
+                        <img src="./img/120504747_273987723655380_1915528451180286596_n.jpg" alt="Descripción de la imagen">
+                        <div class="card-overlay">
+                          <h3>Talk: Mujeres empoderadas en la tecnologia</h3>
+                           <p>Place: TecnoFest 2019</p>
+                          <a href="./portfolio/talk_wom.html" target="_blank"><button>See more</button></a>
+                        </div>
+                      </div> 
+                  </div>   
+        </section> 
+        
+       <section class="contenedor" id="skills"> <br>
+            <h2 class="subtitulo">Skills</h2>
+            <section class="skills">
+                <div class="cont-skill"> 
+                    <img src="./img/curso-de-programacion.png"><br>
+                          <h2>Front-end Developer</h2><br>
+                          <h4>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</h4><br>
+                          <h3>Languajes I speak:</h3>
+                          <p>JavaScript, SQL, GraphQL</p><br>
+                          <ul class="skills-list" id="frontend-skills">
+                            <li>HTML | CSS | Bootstrap</li>
+                            <li>JavaScript | React | Typescript</li>
+                            <li>Redux | Node | GraphQL</li>
+                            <li>Git | Github | Gitlab</li>
+                            <li>SQL | Posgresql</li>
+                            <li>Jira | Trello</li>
+                          </ul>
+                        </div>     
+                </div>
+                  <div class="cont-skill">
+                    <img src="./img/diseno-web.png"><br>
+                      <h2>UI/UX Design</h2><br>
+                      <h4>I value simple content structure, clean design patterns, and thoughtful interactions.</h4><br>
+                      <h3>Things I enjoy designing:</h3>
+                      <p>UX, UI, Web, Apps, Games</p><br>
+                      <ul class="skills-list" id="ui-ux-skills">
+                      <li>User Research | Design thinking</li>
+                      <li>Wireframing | Prototyping</li>
+                      <li>Figma | Adobe XD</li>
+                      <li>Google Analytics</li>
+                      <li>Adobe Creative | Canva</li>
+                      <li>UI Design | UX Design</li>
+                    </ul>
+                  </div>
+            </section>
+
+            <section class="gallery"> 
+              <div class="contenedor" id="work experiences"> <br>
+                  <h2 class="subtitulo">Work Experiences</h2>
+                  <div class="work-experiences">
+                    <ul>
+                      <li class="work-container">
+                        <div>
+                          <div class="job-title">Front-End Developer & UI/UX Designer</div>
+                          <div class="company-name">Freelance</div>
+                          <div class="activities">
+                            <p><i class="fas fa-check"></i> Built and maintained websites for clients through various online platforms.</p>
+                            <p><i class="fas fa-check"></i> Assisted troubleshooting software.</p>
+                            <p><i class="fas fa-check"></i> Created and tested applications for websites.</p>
+                            <p><i class="fas fa-check"></i> Filed reports, gathered information, and performed
+                              research.</p>
+                          </div>
+                          <div class="duration">2018 - 2021</div> 
+                        </div>
+                        <div class="image-work"><a target="_blank" href="https://github.com/HelenBonilla"> <img height="100px" src="./img/HelenB.png"></a></div>
+                      </li>
+                      <li class="work-container">
+                        <div>
+                          <div class="job-title">Requirements Analyst</div>
+                            <div class="company-name">Quipux</div>
+                              <div class="activities">
+                                <p><i class="fas fa-check"></i> Deep understanding of the user and their needs.</p>
+                                <p><i class="fas fa-check"></i> Creating user flows and wireframes to plan the
+                                  structure of the product.</p>
+                                <p><i class="fas fa-check"></i> Creating attractive and visually pleasing interfaces.</p>
+                                <p><i class="fas fa-check"></i> Design interface elements for further development.</p>
+                              </div>
+                            <div class="duration">2023 - 2023</div>
+                        </div>
+                        <div class="image-work"><a target="_blank" href="https://quipux.com/"> <img height="50px" src="./img/quipux.png"> </a></div>
+                      </li>
+                      <li class="work-container">
+                        <div>
+                        <div class="job-title">Designer UI/UX</div>
+                        <div class="company-name">Cedesoft</div>
+                        <div class="activities">
+                          <p><i class="fas fa-check"></i> Participation in meetings with the user, where the
+                            specifications of the study environment are established.</p>
+                          <p><i class="fas fa-check"></i> Designing the application interface.</p>
+                          <p><i class="fas fa-check"></i> Planning and conducting user tests to obtain
+                            valuable feedback.</p>
+                        </div>
+                        <div class="duration">2019 - 2020</div>
+                      </div>
+                        <div class="image-work"><a target="_blank" href="https://eisc.univalle.edu.co/index.php/laboratorios/cedesoft"> <img src="./img/cedesoft.png"> </a></div>
+                      </li>
+                      <li class="work-container"> 
+                        <div>
+                        <div class="job-title">Co-Lider</div>
+                        <div class="company-name">PionerasDev Cali</div>
+                        <div class="activities">
+                          <p><i class="fas fa-check"></i> Generation of creative and attractive content.</p>
+                          <p><i class="fas fa-check"></i> Innovative thinking to develop original campaigns.</p>
+                          <p><i class="fas fa-check"></i> Organization of technological events.</p>
+                        </div>
+                        <div class="duration">2018 - Present</div>
+                        </div>
+                        <div class="image-work"><a target="_blank" href="https://www.pionerasdev.org/"> <img height="50" src="./img/pionerasdev.png"> </a></div>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </section>
+    </main> <br>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <strong><p>Ways To Contact Me</p></strong>
+                <p>Helen Bonilla | Front-End Developer | UI/UX Designer</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/helen-bonilla-gonzalez-b10560175/" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-linkedin-square' ></i>
+                </a>
+                <a href="https://github.com/HelenBonilla" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="mailto:helenbonillag@gmail.com/Send mail" target="_blank" class="social-media-icon">
+                    <i class='bx bxs-envelope'></i> 
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="./portfolio/script.js"></script>
+</body>
+</html>
